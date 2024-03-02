@@ -1,4 +1,4 @@
-@import "variables";
+@import '../../../assets/styles/variables';
 
 :root {
   --background-color: $header;
@@ -16,7 +16,7 @@
   min-height: 140px;
   overflow: hidden;
   z-index: 99;
-  background-color: var(--background-color);
+  background-color:#ffde59;
 
   #grid-menu {
     min-height: 140px;
