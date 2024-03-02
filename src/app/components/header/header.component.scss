@@ -1,0 +1,50 @@
+@import "variables";
+
+:root {
+  --background-color: $header;
+}
+
+.header-border {
+  position: relative !important;
+  border-bottom: 1px solid $inactive;
+}
+
+#main-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 140px;
+  overflow: hidden;
+  z-index: 99;
+  background-color: var(--background-color);
+
+  #grid-menu {
+    min-height: 140px;
+
+    img {
+      max-width: 260px;
+      max-height: 130px;
+    }
+
+    .menu {
+      justify-self: flex-end;
+      align-self: center;
+    }
+
+    
+    .btn-icon {
+      width: 48px;
+      height: 48px;
+
+      > * {
+        color: $light;
+      }
+
+      .mat-icon {
+        width: 38px;
+        height: 38px;
+        font-size: 38px;
+      }
+    }
+  }
+}
